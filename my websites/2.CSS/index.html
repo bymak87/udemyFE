@@ -8,8 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style type="text/css">
-        p{
-         color: green;
+        .large{
+         font-size: 300%;
+        }
+        #green{
+            color: green;
+        }
+        .underlined{
+            text-decoration: underline;
+        }
+        .bold {
+            font-weight: bold;
         }
 
     </style>
@@ -17,7 +26,8 @@
 </head>
 
 <body>
-    <p>This is some text.</p>
-    <p>This is some more text.</p>
+    <p class="large">This is some text.</p>
+    <p id="green" class="large">This is some more text.</p>
+    <p>The third <span class="large bold underlined">word</span> in this paragraph is underlined.</p>
 </body>
 </html>
