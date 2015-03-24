@@ -8,35 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <style type="text/css">
-        .large{
-         font-size: 300%;
-        }
-        #green{
-            color: green;
-        }
-        .underlined{
-            text-decoration: underline;
-        }
-        .bold {
-            font-weight: bold;
+
+        div{
+            width: 100px;
+            height: 100px;
+            float:left;
+            margin: 20px;
         }
 
-        .purplebox{
-            background-color: #642EFE;
-            width: 200px;
-            height: 200px;
-            padding-left:100px;
+        .redbox{
+            background-color: #DF1717;
+            border:2px yellow ridge;
 
                 }
+        .bluebox{
+            background-color: #0080FF;
+            border-style: ridge solid dotted dashed
+            border-width:10px 5px 3px 1px;
+            border-color:#ff0000 #0000;
+        }
         .greenbox{
             background-color: #2EFE2E;
-            width: 300px;
-            height:200px;
+            border-radius: 50px;
         }
-        p{
-            padding: 0;
-            margin: 0;
-        }
+
 
 
     </style>
@@ -44,10 +39,15 @@
 </head>
 
 <body>
-    <div class="purplebox"><p class="large">This is some text.</p><p>More text</p></div>
-    <div><p id="green" class=" greenbox large">This is some more text.</p></div>
-
-    <p>The third <span class="large bold underlined">word</span> in this paragraph is underlined.</p>
+    <div class="redbox">
+        <p>This is some text.</p>
+    </div>
+    <div class="bluebox">
+        <p>More text...</p>
+    </div>
+    <div class="greenbox">
+        <p>Even more text...</p>
+    </div>
 
 
 
