@@ -20,19 +20,19 @@
         .bold {
             font-weight: bold;
         }
-        .bluebox{
-            background-color: #0080FF;
-            width: 200px;
-            height:200px;
-            position:fixed;
-            z-index: 1;
-        }
+
         .purplebox{
             background-color: #642EFE;
-            width: 500px;
-            height: 500px;
+            width: 200px;
+            height: 200px;
+            z-index: 1;
+            margin-left: 400px;
+                }
+        .greenbox{
+            background-color: #2EFE2E;
+            width: 300px;
+            height:200px;
             z-index: 2;
-
         }
 
 
@@ -41,12 +41,12 @@
 </head>
 
 <body>
-    <div><p class="bluebox large">This is some text.</p></div>
-    <div><p id="green" class=" purplebox large">This is some more text.</p></div>
+    <div><p class="purplebox large">This is some text.</p></div>
+    <div><p id="green" class=" greenbox large">This is some more text.</p></div>
 
     <p>The third <span class="large bold underlined">word</span> in this paragraph is underlined.</p>
 
-    <div><p id="green" class=" purplebox large">This is some more text.</p></div><div><p id="green" class=" purplebox large">This is some more text.</p></div><div><p id="green" class=" purplebox large">This is some more text.</p></div>
+
 
 </body>
 </html>
