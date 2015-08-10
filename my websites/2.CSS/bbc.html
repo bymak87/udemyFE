@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <title>Amy's BBC</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: arial, helvetica, sans-serif;
+        }
+        #top-bar {
+            background-color: #990000;
+            height: 60px;
+            width: 100%;
+            color: white;
+
+        }
+        .fixed-width{
+            width: 1050px;
+            margin: 0 auto;
+        }
+        .logo-div{
+            padding-top: 5px;
+            float: left;
+            border-right: 1px solid #990000;
+            padding-right: 10px;
+        }
+        #sign-in{
+            padding: 5px 80px 0 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            float: left;
+            border-right: 1px solid #990000
+        }
+        #topmenu{
+            float: left;
+        }
+        #topmenu ul {
+            margin: 0;
+        }
+        #topmenu li{
+            list-style: none;
+            font-weight: bold;
+            font-size: 0.9em;
+            border-right: 1px solid #990000;
+            padding: 40px 20px 5px 20px;
+            height: 100%;
+            float: left;
+
+        }
+        #searchbar{
+            float: right;
+            position: relative;
+            bottom: 49px;
+            left: 40px;
+        }
+        #searchbar input{
+            height: 35px;
+            border: none;
+            background-image: url('images/magnify.png');
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="top-bar">
+            <div class="fixed-width">
+                <div class="logo-div">
+                    <img src="images/bbcLogo.png" alt="">
+                </div>
+                <div id="sign-in">
+                    <img src="images/signin.png" alt="">Sign In
+                </div>
+
+                <div id="topmenu">
+                    <ul>
+                        <li>News</li>
+                        <li>Sport</li>
+                        <li>Weather</li>
+                        <li>iPlayer</li>
+                        <li>Radio</li>
+                        <li>More...</li>
+                    </ul>
+                </div>
+
+                <div id="searchbar">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
